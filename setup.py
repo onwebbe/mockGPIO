@@ -5,5 +5,5 @@ setup(name='RPi',
       url='https://github.com/onwebbe/mockGPIO.git',
       author='onwebbe',
       license='MIT',
-      packages=['RPi'],
+      packages=['RPi', 'Adafruit_DHT', 'smbus'],
       zip_safe=False)
