@@ -8,6 +8,8 @@ MOCK = True
 RISING = 0
 FALLING = 1
 BOTH = 2
+PUD_UP = 3
+PUD_DOWN= 4
 def setup(pin, level = 0):
   pass
 
